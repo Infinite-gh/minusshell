@@ -1,0 +1,180 @@
+
+
+
+entered help into the cmd. 
+at 18-01-2022 18:43:47 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered help into the cmd. 
+at 18-01-2022 18:49:25 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered clear into the cmd. 
+at 18-01-2022 18:49:26 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered clear into the cmd. 
+at 18-01-2022 18:49:29 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered clear into the cmd. 
+at 18-01-2022 18:50:4 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered echo balls into the cmd. 
+at 18-01-2022 18:50:9 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered ver into the cmd. 
+at 18-01-2022 18:59:33 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered exit into the cmd. 
+at 18-01-2022 18:59:36 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered ver  into the cmd. 
+at 18-01-2022 19:3:15 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered ver ver into the cmd. 
+at 18-01-2022 19:3:19 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered ver ver into the cmd. 
+at 18-01-2022 19:3:21 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered clear into the cmd. 
+at 18-01-2022 19:3:25 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered ver NZSHH into the cmd. 
+at 18-01-2022 19:3:29 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered ver NZSHH into the cmd. 
+at 18-01-2022 19:8:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered ver into the cmd. 
+at 18-01-2022 19:8:51 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered ver ver into the cmd. 
+at 18-01-2022 19:8:53 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered ver NZSHH into the cmd. 
+at 18-01-2022 19:11:41 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered clear into the cmd. 
+at 18-01-2022 19:12:59 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered help into the cmd. 
+at 18-01-2022 19:13:0 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered ver NZMSHH into the cmd. 
+at 18-01-2022 19:13:9 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered ver NZSHH into the cmd. 
+at 18-01-2022 19:13:17 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered exit into the cmd. 
+at 18-01-2022 19:14:53 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered write into the cmd. 
+at 18-01-2022 19:19:30 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered clear into the cmd. 
+at 19-01-2022 7:14:17 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered help into the cmd. 
+at 19-01-2022 7:14:18 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered clear into the cmd. 
+at 19-01-2022 7:15:57 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM r into the cmd. 
+at 19-01-2022 7:19:18 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM r into the cmd. 
+at 19-01-2022 7:20:33 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM r into the cmd. 
+at 19-01-2022 7:20:41 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM r into the cmd. 
+at 19-01-2022 7:21:14 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 

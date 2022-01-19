@@ -1,0 +1,18 @@
+{
+  "name": "minusshell",
+  "version": "0.0.1",
+  "description": "a shell made in nodej",
+  "main": "./SHELL/starter/start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "balls"
+  ],
+  "author": "NRD",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "readline": "^1.3.0",
+    "shelljs": "^0.8.5"
+  }
+}

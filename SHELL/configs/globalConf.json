@@ -1,0 +1,12 @@
+{
+
+    "shell":{
+
+        "name": "NZSHH",
+        "path": "/programs/NZSHH.silent.js"
+    },
+    "programs":{
+
+        "path": "/programs"
+    }
+}

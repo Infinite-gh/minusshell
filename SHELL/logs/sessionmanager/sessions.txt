@@ -1,0 +1,200 @@
+
+
+
+started a session. 
+user: default
+PS1:[18-01-2022 18:34:28]
+[undefined @ frepron]
+->> 
+at 18-01-2022 18:34:28 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[18-01-2022 18:38:4]
+[undefined @ frepron]
+->> 
+at 18-01-2022 18:38:4 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[18-01-2022 18:41:19]
+[undefined @ frepron]
+->> 
+at 18-01-2022 18:41:19 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[18-01-2022 18:41:42]
+[undefined @ frepron]
+->> 
+at 18-01-2022 18:41:42 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[18-01-2022 18:42:45]
+[undefined @ frepron]
+->> 
+at 18-01-2022 18:42:45 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[18-01-2022 18:43:44]
+[undefined @ frepron]
+->> 
+at 18-01-2022 18:43:44 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[18-01-2022 18:49:23]
+[undefined @ frepron]
+->> 
+at 18-01-2022 18:49:23 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[18-01-2022 18:55:11]
+[undefined @ frepron]
+->> 
+at 18-01-2022 18:55:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[18-01-2022 19:3:11]
+[undefined @ frepron]
+->> 
+at 18-01-2022 19:3:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[18-01-2022 19:6:48]
+[undefined @ frepron]
+->> 
+at 18-01-2022 19:6:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[18-01-2022 19:11:36]
+[undefined @ frepron]
+->> 
+at 18-01-2022 19:11:36 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[18-01-2022 19:12:57]
+[undefined @ frepron]
+->> 
+at 18-01-2022 19:12:57 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[18-01-2022 19:18:14]
+[undefined @ frepron]
+->> 
+at 18-01-2022 19:18:14 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[18-01-2022 19:19:28]
+[undefined @ frepron]
+->> 
+at 18-01-2022 19:19:28 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[19-01-2022 7:14:15]
+[undefined @ frepron]
+->> 
+at 19-01-2022 7:14:15 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[19-01-2022 7:15:55]
+[undefined @ frepron]
+->> 
+at 19-01-2022 7:15:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[19-01-2022 7:17:20]
+[undefined @ frepron]
+->> 
+at 19-01-2022 7:17:20 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[19-01-2022 7:19:15]
+[undefined @ frepron]
+->> 
+at 19-01-2022 7:19:15 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[19-01-2022 7:20:38]
+[undefined @ frepron]
+->> 
+at 19-01-2022 7:20:38 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[19-01-2022 7:21:9]
+[undefined @ frepron]
+->> 
+at 19-01-2022 7:21:9 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 

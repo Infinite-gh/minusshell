@@ -10,3 +10,9 @@ at 18-01-2022 18:59:36 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
 called out unexistent command exit 
 at 18-01-2022 19:14:53 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
  
+
+
+
+called out unexistent command exit 
+at 19-01-2022 8:30:36 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 

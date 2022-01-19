@@ -55,7 +55,7 @@ module.exports = {
             // if i didn't put this here, the nodeos would crash on unexistent commands
 
             if(!args[0]){
-                
+
                 console.log(`please input something into the command line. \n`)
             }else{
 
@@ -76,7 +76,7 @@ module.exports = {
 
             // a little thing
 
-            NZSHH.log(`ended a session.`, 'sessionmanager', 'sessions')
+            NZTK.log(`ended a session.`, 'sessionmanager', 'sessions')
             process.exit(0);
         })
     }

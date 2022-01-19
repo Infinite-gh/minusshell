@@ -2,7 +2,7 @@
 module.exports = {
     name: "NZPM",
     desc: "negative zero package manager (HEAVY WIP)",
-    version: "beta 0.0.3",
+    version: "beta 0.0.4",
     usage: "NZPM [refresh/install/help]",
     run: async (args, line, user, programs) =>{
 

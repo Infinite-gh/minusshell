@@ -1,6 +1,6 @@
 module.exports = async (args) =>{
 
-    let repo = require('../../var/NZPM/packages.json') 
+    let repo = require('../../configs/NZPM/packages.json') 
 
     const shell = require('shelljs')
     const fs = require('fs')
@@ -12,14 +12,16 @@ module.exports = async (args) =>{
     // base class
 
     class install{
+
         constructor(pkg, repo){
             this.packageToInstall = pkg 
             this.repo = repo
         }
-        async download(){
-            shell.exec(`git clone ${NZTK.findinjson(this.repo, this.packageToInstall)} ./SHELL/temp/NZPM`)
 
-            await nztk.log(`downloaded the package ${this.packageToInstall}.`, `NZPM`, `install`)
+        async download(){
+            shell.exec(`git clone ${NZTK.findinjson(this.repo, this.packageToInstall)} ./SHELL/temp/NZPM/package`)
+
+            await NZTK.log(`downloaded the package ${this.packageToInstall}.`, `NZPM`, `install`)
         }
     }
 
@@ -28,66 +30,55 @@ module.exports = async (args) =>{
     class installPackage extends install{
         async setup(){
 
-            // move the dependencies file
-
-            fs.rename(`./SHELL/temp/NZPM/dependencies.txt`, `./SHELL/temp/.`, function (err) {
-                if (err) console.log(`there was an error while installing the package`)
-                else console.log('successfully moved dependencies file')
-            })
-
             // install the dependencies
 
-            await fs.readFile('./SHELL/temp/dependencies.txt', 'utf8', (err, data) =>{
+            await fs.readFile('./SHELL/temp/NZPM/package/dependencies.txt', 'utf8', (err, data) =>{
+
                 if(err){
+
                     console.log(`an error occured while loading dependencies for this package.`)
                 }else{
+
                     shell.exec(`npm i ${data}`)
                 }
             })
 
-            await fs.readFile('./SHELL/temp/MINUSSHELLdependencies.txt', 'utf8', (err, data) =>{
+            // remove the dependencies file
+
+            await fs.unlink("./SHELL/temp/NZPM/package/dependencies.txt", (err) =>{ console.log("there was an error.")})
+
+            // install minus shell dependencies
+
+            await fs.readFile('./SHELL/temp/NZPM/package/MINUSSHELLdependencies.txt', 'utf8', (err, data) =>{
 
                 if(err){
 
-                    console.log(`an error occured while loading dependencies for this package.`)
+                    console.log(`the dependencies file is missing or empty  `)
                 }else{
 
                     require('../NZPMTools').install(data.split("\n"))
                 }
             })
 
-            // copy the package
-
-            fse.copySync(`./SHELL/temp/NZPM/.`, `./SHELL/.`, {overwrite: true}, (err) =>{
-                if(err){                 
-                    console.log(`there was an error while installing this package`)      
-                }else{
-                    console.log("successfully copied the package files");
-                }
-            });
-
-            // remove the garbaj
-
-            // remove the temporary package files
-
-            NZTK.removedir(`./SHELL/temp/NZPM`)
-            
             // remove dependencies.txt
 
-            await fs.unlink('./SHELL/temp/dependencies.txt', (err) =>{
+            await fs.unlink('./SHELL/temp/NZPM/package/MINUSSHELLdependencies.txt', (err) =>{
                 if(err) console.log(`there was an error while removing temporary package files`);
                 console.log('successfully deleted the dependencies file');
             });
 
-            // add the package to the installed list
+            // copy the package
 
-            await fs.appendFile('./SHELL/configs/NZPM/installed.txt', this.packageToInstall, (err) =>{
-                if(err){
-                    console.log(`an error occured.`)
+            await fse.copy(`./SHELL/temp/NZPM/package/.`, `./SHELL/.`, {overwrite: true}, (err) =>{
+
+                if(err){                 
+
+                    console.log(`there was an error while installing this package`)      
+                }else{
+
+                    console.log("successfully copied the package files");
                 }
-            })
-
-            await nztk.log(`installed package ${this.packageToInstall}`, `NZPM`, `install`)
+            });
         }
     }
 
@@ -96,30 +87,37 @@ module.exports = async (args) =>{
         const daclass = new installPackage(args[2], repo)
 
         daclass.download()
-        daclass.setup()
+        await daclass.setup()
+        await NZTK.removedir("./SHELL/temp/NZPM/package")
 
-        nztk.log(`installing finished`, `NZPM`, `install`)
+        NZTK.log(`installing finished`, `NZPM`, `install`)
     }
 
 
-    switch(theRepo){
+    // switch(theRepo){
 
-        case "404":
-            nztk.log(`can't find ${args[2]} in the repshellitory.`, 'NZPM', 'install')
-        break;
+    //     case "404":
+    //         NZTK.log(`can't find ${args[2]} in the repshellitory.`, 'NZPM', 'install')
+    //     break;
 
-        default:
-            fs.readFile('./SHELL/var/NZPM/installed.txt', 'utf8', (err, data) =>{
-                if(err){
-                    console.log(`there was an error reading list of installed packages. maybe create /var/NZPM/installed.txt?`)
-                }
-                if(data.includes(args[2])){
-                    console.log(`package "${args[2]}" is already installed.`)
-                }else{
-                    installSequence(args)
-                }
-            })
-        break;
+    //     default:
+    //         fs.readFile('./SHELL/configs/NZPM/installed.txt', 'utf8', (err, data) =>{
 
-    }
+    //             if(err){
+
+    //                 console.log(`there was an error reading list of installed packages. maybe create /configs/NZPM/installed.txt?`)
+    //             }
+    //             if(data.includes(args[2])){
+
+    //                 console.log(`package "${args[2]}" is already installed.`)
+    //             }else{
+
+    //                 installSequence(args)
+    //             }
+    //         })
+    //     break;
+
+    // }
+
+    installSequence(args)
 }

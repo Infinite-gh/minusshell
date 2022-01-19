@@ -618,3 +618,43 @@ PS1:[19-01-2022 9:1:14]
 ->> 
 at 19-01-2022 9:1:14 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
  
+
+
+
+started a session. 
+user: default
+PS1:[19-01-2022 9:14:13]
+[undefined @ frepron]
+->> 
+at 19-01-2022 9:14:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[19-01-2022 9:14:59]
+[undefined @ frepron]
+->> 
+at 19-01-2022 9:14:59 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[19-01-2022 9:17:20]
+[undefined @ frepron]
+->> 
+at 19-01-2022 9:17:20 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[19-01-2022 9:20:2]
+[undefined @ frepron]
+->> 
+at 19-01-2022 9:20:2 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 

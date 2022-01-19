@@ -430,3 +430,27 @@ at 19-01-2022 9:0:34 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
 entered NZPM i history into the cmd. 
 at 19-01-2022 9:1:18 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
  
+
+
+
+entered NZPM i history into the cmd. 
+at 19-01-2022 9:15:7 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i history into the cmd. 
+at 19-01-2022 9:16:21 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i history into the cmd. 
+at 19-01-2022 9:17:23 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i history into the cmd. 
+at 19-01-2022 9:20:4 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 

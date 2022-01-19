@@ -11,96 +11,56 @@ module.exports = async (args) =>{
     
     // base class
 
-    class install{
+    class Install{
 
-        constructor(pkg, repo){
-            this.packageToInstall = pkg 
-            this.repo = repo
+        constructor(package, url){
+
+            this.package = package
+            this.url = url
         }
+        
+        install = () =>{
 
-        async download(){
-            shell.exec(`git clone ${NZTK.findinjson(this.repo, this.packageToInstall)} ./SHELL/temp/NZPM/package`)
+            NZTK.log(`using git to download ${this.package}.`, "NZPM", "install")
+            
+            shell.exec(`git clone ${this.url} ./SHELL/temp/NZPM/${this.package}`)
 
-            await NZTK.log(`downloaded the package ${this.packageToInstall}.`, `NZPM`, `install`)
-        }
-    }
+            NZTK.log(`checking dependencies of ${this.package}.`)
 
-    // the one for installing packages
+            const NPMDependencies = NZTK.readFile(`./SHELL/temp/NZPM/${this.package}/dependencies.txt`, ".", false)
+            const MSHDependencies = NZTK.readFile(`./SHELL/temp/NZPM/${this.package}/MINUSSHELLdependencies.txt`, ".", false)
+            const MSHDependenciesInstallable = MSHDependencies.split("\n")
 
-    class installPackage extends install{
-        async setup(){
+            NZTK.log(`finished checking dependencies. installing them.`, "NZPM", "install")
 
-            // install the dependencies
+            shell.exec(`npm i ${NPMDependencies}`)
 
-            await fs.readFile('./SHELL/temp/NZPM/package/dependencies.txt', 'utf8', (err, data) =>{
+            const MSHDepends = MSHDependenciesInstallable.length
+            for(var i = 0; i < MSHDepends; i++){
 
-                if(err){
+                this.install(MSHDependenciesInstallable[i])
+            }
 
-                    console.log(`an error occured while loading dependencies for this package.`)
-                }else{
+            NZTK.log(`installed all dependencies for ${this.package}. removing the temporary files.`, "NZPM", "install")
 
-                    shell.exec(`npm i ${data}`)
-                }
-            })
+            NZTK.removeFile(`./SHELL/temp/NZPM/${this.package}/dependencies.txt`)
+            NZTK.removeFile(`./SHELL/temp/NZPM/${this.package}/MINUSSHELLdependencies.txt`)
 
-            // remove the dependencies file
+            NZTK.log(`removed temporary files. beginning merging`, 'NZPM', "install")
 
-            await fs.unlink("./SHELL/temp/NZPM/package/dependencies.txt", (err) =>{ console.log("there was an error.")})
-
-            // install minus shell dependencies
-
-            await fs.readFile('./SHELL/temp/NZPM/package/MINUSSHELLdependencies.txt', 'utf8', (err, data) =>{
-
-                if(err){
-
-                    console.log(`the dependencies file is missing or empty  `)
-                }else{
-
-                    require('../NZPMTools').install(data.split("\n"))
-                }
-            })
-
-            // remove dependencies.txt
-
-            await fs.unlink('./SHELL/temp/NZPM/package/MINUSSHELLdependencies.txt', (err) =>{
-                if(err) console.log(`there was an error while removing temporary package files`);
-                console.log('successfully deleted the dependencies file');
-            });
-
-            // copy the package
-
-            await fse.copy(`./SHELL/temp/NZPM/package/.`, `./SHELL/.`, {overwrite: true}, (err) =>{
-
-                if(err){                 
-
-                    console.log(`there was an error while installing this package`)      
-                }else{
-
-                    console.log("successfully copied the package files");
-                }
-            });
+            NZTK.moveFile(`./SHELL/temp/NZPM/${this.package}/.`, `./SHELL`, ",", false)
         }
     }
-
-    const installSequence = async (args) =>{
-
-        const daclass = new installPackage(args[2], repo)
-
-        daclass.download()
-        await daclass.setup()
-        await NZTK.removedir("./SHELL/temp/NZPM/package")
-
-        NZTK.log(`installing finished`, `NZPM`, `install`)
-    }
-
 
     switch(theRepo){
 
         case "404":
+            
             NZTK.log(`can't find ${args[2]} in the repshellitory.`, 'NZPM', 'install')
         break;
 
         default:
+
             fs.readFile('./SHELL/configs/NZPM/installed.txt', 'utf8', (err, data) =>{
 
                 if(err){

@@ -94,30 +94,30 @@ module.exports = async (args) =>{
     }
 
 
-    // switch(theRepo){
+    switch(theRepo){
 
-    //     case "404":
-    //         NZTK.log(`can't find ${args[2]} in the repshellitory.`, 'NZPM', 'install')
-    //     break;
+        case "404":
+            NZTK.log(`can't find ${args[2]} in the repshellitory.`, 'NZPM', 'install')
+        break;
 
-    //     default:
-    //         fs.readFile('./SHELL/configs/NZPM/installed.txt', 'utf8', (err, data) =>{
+        default:
+            fs.readFile('./SHELL/configs/NZPM/installed.txt', 'utf8', (err, data) =>{
 
-    //             if(err){
+                if(err){
 
-    //                 console.log(`there was an error reading list of installed packages. maybe create /configs/NZPM/installed.txt?`)
-    //             }
-    //             if(data.includes(args[2])){
+                    console.log(`there was an error reading list of installed packages. maybe create /configs/NZPM/installed.txt?`)
+                }
+                if(data.includes(args[2])){
 
-    //                 console.log(`package "${args[2]}" is already installed.`)
-    //             }else{
+                    console.log(`package "${args[2]}" is already installed.`)
+                }else{
 
-    //                 installSequence(args)
-    //             }
-    //         })
-    //     break;
+                    installSequence(args)
+                }
+            })
+        break;
 
-    // }
+    }
 
     installSequence(args)
 }

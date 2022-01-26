@@ -76,8 +76,7 @@ module.exports = {
 
             // a little thing
 
-            NZTK.log(`ended a session.`, 'sessionmanager', 'sessions')
-            process.exit(0);
+            console.log("disabled the readline.")
         })
     }
 }

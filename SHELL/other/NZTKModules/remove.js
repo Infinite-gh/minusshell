@@ -9,10 +9,10 @@ module.exports = (file, customErrorOutput, CEOEnabled) =>{
 
             if(CEOEnabled){
 
-                NZTK.log(customErrorOutput)
+                NZTK.log(customErrorOutput, "NZTK", "remove")
             }else{
 
-                NZTK.log(err)
+                NZTK.log(err, "NZTK", "remove")
             }
         }
     })

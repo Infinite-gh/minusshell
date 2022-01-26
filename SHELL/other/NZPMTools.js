@@ -4,7 +4,7 @@ const refresh = require('./NZPM/update')
 
 module.exports = {
 
-    install: (args) => install(args),
+    install: (args, rl) => install(args, rl),
     update: () => update(),
     refresh: () => refresh()
 }

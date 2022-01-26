@@ -32,12 +32,12 @@ module.exports = {
 
                 case "install":
 
-                    NZPMTools.install(args)
+                    NZPMTools.install(args, line)
                 break;
                     
                 case "i":
 
-                    NZPMTools.install(args)
+                    NZPMTools.install(args, line)
                 break;
 
                 case "help":

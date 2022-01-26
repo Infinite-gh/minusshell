@@ -4,7 +4,7 @@ module.exports = {
     desc: "negative zero package manager (HEAVY WIP)",
     version: "beta 0.0.4",
     usage: "NZPM [refresh/install/help]",
-    run: async (args, line, user, programs) =>{
+    run: async (args, bruh, user, programs, line) =>{
 
         const NZTK = require("../other/NZTK")
         const NZPMTools = require('../other/NZPMTools')
@@ -32,12 +32,12 @@ module.exports = {
 
                 case "install":
 
-                    NZPMTools.install(args, line)
+                    NZPMTools.install(args, line, user)
                 break;
                     
                 case "i":
 
-                    NZPMTools.install(args, line)
+                    NZPMTools.install(args, line, user)
                 break;
 
                 case "help":

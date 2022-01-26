@@ -72,7 +72,7 @@ module.exports = {
 
             await rl.prompt();
 
-        }).on("close", function() {
+        }).on("close", () => {
 
             // a little thing
 

@@ -30,7 +30,8 @@ module.exports = async (args, rl, user) =>{
 
                     shell.exec(`git clone ${theRepo} ./SHELL/temp/NZPM/${args[2]}`)
                     const installer = require(`../../temp/NZPM/${args[2]}/install.js`)
-                    installer(rl, user)
+                    const startInstall = (rl, user) =>{ installer(rl, user) }
+                    startInstall(rl, user)
                 }
             })
         break;

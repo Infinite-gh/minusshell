@@ -634,3 +634,63 @@ at 27-01-2022 10:49:41 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
 entered NZPM r into the cmd. 
 at 27-01-2022 10:50:28 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
  
+
+
+
+entered NZPM i plugbot into the cmd. 
+at 27-01-2022 11:15:50 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i plugbot into the cmd. 
+at 27-01-2022 11:19:30 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i plugbot into the cmd. 
+at 27-01-2022 11:19:47 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i plugbot into the cmd. 
+at 27-01-2022 11:20:1 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i plugbot into the cmd. 
+at 27-01-2022 11:22:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i plugbot into the cmd. 
+at 27-01-2022 11:23:2 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i plugbot into the cmd. 
+at 27-01-2022 11:23:51 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i plugbot into the cmd. 
+at 27-01-2022 11:24:15 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i plugbot into the cmd. 
+at 27-01-2022 11:24:58 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i plugbot into the cmd. 
+at 27-01-2022 11:25:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 

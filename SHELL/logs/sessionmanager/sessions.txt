@@ -1098,3 +1098,223 @@ PS1:[27-01-2022 11:25:9]
 ->> 
 at 27-01-2022 11:25:9 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
  
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:27:51]
+[default @ frepron]
+->> 
+at 27-01-2022 11:27:51 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:28:25]
+[default @ frepron]
+->> 
+at 27-01-2022 11:28:25 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:29:58]
+[default @ frepron]
+->> 
+at 27-01-2022 11:29:58 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:31:49]
+[default @ frepron]
+->> 
+at 27-01-2022 11:31:49 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:33:13]
+[default @ frepron]
+->> 
+at 27-01-2022 11:33:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:34:5]
+[default @ frepron]
+->> 
+at 27-01-2022 11:34:5 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:35:52]
+[default @ frepron]
+->> 
+at 27-01-2022 11:35:52 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:36:25]
+[default @ frepron]
+->> 
+at 27-01-2022 11:36:25 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:37:13]
+[default @ frepron]
+->> 
+at 27-01-2022 11:37:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:37:26]
+[default @ frepron]
+->> 
+at 27-01-2022 11:37:26 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:38:57]
+[default @ frepron]
+->> 
+at 27-01-2022 11:38:57 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:39:26]
+[default @ frepron]
+->> 
+at 27-01-2022 11:39:26 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:40:4]
+[default @ frepron]
+->> 
+at 27-01-2022 11:40:4 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:46:46]
+[default @ frepron]
+->> 
+at 27-01-2022 11:46:46 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:47:16]
+[default @ frepron]
+->> 
+at 27-01-2022 11:47:16 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:48:54]
+[default @ frepron]
+->> 
+at 27-01-2022 11:48:54 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:52:25]
+[default @ frepron]
+->> 
+at 27-01-2022 11:52:25 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:55:14]
+[default @ frepron]
+->> 
+at 27-01-2022 11:55:14 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:56:15]
+[default @ frepron]
+->> 
+at 27-01-2022 11:56:15 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 11:58:34]
+[default @ frepron]
+->> 
+at 27-01-2022 11:58:34 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 12:1:44]
+[default @ frepron]
+->> 
+at 27-01-2022 12:1:44 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+started a session. 
+user: default
+PS1:[27-01-2022 12:2:40]
+[default @ frepron]
+->> 
+at 27-01-2022 12:2:40 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 

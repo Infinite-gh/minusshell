@@ -1,4 +1,6 @@
-module.exports = async (args, rl, user) =>{
+module.exports = (args, rl, user) =>{
+
+    console.log(user)
 
     let repo = require('../../configs/NZPM/packages.json') 
 

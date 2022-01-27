@@ -6670,3 +6670,1389 @@ at 27-01-2022 11:25:3 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
 found user default 
 at 27-01-2022 11:25:3 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
  
+
+
+
+found program NZLM 
+at 27-01-2022 11:27:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:27:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:27:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:27:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:27:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:27:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:27:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:27:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:27:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:27:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:28:23 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:28:23 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:28:23 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:28:23 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:28:23 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:28:23 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:28:23 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:28:23 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:28:23 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:28:23 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:29:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:29:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:29:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:29:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:29:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:29:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:29:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:29:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:29:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:29:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:31:45 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:31:45 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:31:45 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:31:45 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:31:45 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:31:45 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:31:45 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:31:45 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:31:45 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:31:45 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:33:10 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:33:10 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:33:10 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:33:10 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:33:10 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:33:10 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:33:10 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:33:10 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:33:10 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:33:10 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:34:3 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:34:3 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:34:3 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:34:3 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:34:3 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:34:3 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:34:3 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:34:3 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:34:3 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:34:3 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:35:50 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:35:50 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:35:50 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:35:50 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:35:50 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:35:50 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:35:50 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:35:50 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:35:50 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:35:50 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:36:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:36:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:36:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:36:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:36:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:36:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:36:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:36:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:36:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:36:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:37:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:37:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:37:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:37:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:37:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:37:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:37:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:37:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:37:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:37:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:37:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:37:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:37:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:37:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:37:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:37:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:37:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:37:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:37:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:37:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:38:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:38:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:38:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:38:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:38:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:38:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:38:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:38:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:38:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:38:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:39:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:39:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:39:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:39:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:39:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:39:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:39:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:39:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:39:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:39:24 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:40:2 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:40:2 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:40:2 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:40:2 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:40:2 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:40:2 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:40:2 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:40:2 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:40:2 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:40:2 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:46:44 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:46:44 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:46:44 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:46:44 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:46:44 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:46:44 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:46:44 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:46:44 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:46:44 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:46:44 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:47:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:47:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:47:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:47:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:47:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:47:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:47:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:47:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:47:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:47:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:48:52 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:48:52 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:48:52 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:48:52 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:48:52 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:48:52 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:48:52 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:48:52 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:48:52 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:48:52 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:52:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:52:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:52:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:52:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:52:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:52:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:52:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:52:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:52:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:52:22 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:55:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:55:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:55:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:55:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:55:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:55:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:55:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:55:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:55:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:55:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:56:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:56:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:56:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:56:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:56:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:56:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:56:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:56:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:56:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:56:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 11:58:32 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 11:58:32 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 11:58:32 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 11:58:32 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 11:58:32 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 11:58:32 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 11:58:32 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 11:58:32 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 11:58:32 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 11:58:32 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 12:1:40 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 12:1:40 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 12:1:40 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 12:1:40 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 12:1:40 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 12:1:40 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 12:1:40 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 12:1:40 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 12:1:40 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 12:1:40 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 12:2:37 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 12:2:37 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 12:2:37 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 12:2:37 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 12:2:37 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 12:2:37 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 12:2:37 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 12:2:37 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 12:2:37 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 12:2:37 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZLM 
+at 27-01-2022 12:4:49 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZPM 
+at 27-01-2022 12:4:49 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program NZSHH 
+at 27-01-2022 12:4:49 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program clear 
+at 27-01-2022 12:4:49 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program echo 
+at 27-01-2022 12:4:49 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program exit 
+at 27-01-2022 12:4:49 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program help 
+at 27-01-2022 12:4:49 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program plugbot 
+at 27-01-2022 12:4:49 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program ver 
+at 27-01-2022 12:4:49 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found program write 
+at 27-01-2022 12:4:49 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+found user default 
+at 27-01-2022 12:4:49 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 

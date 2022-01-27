@@ -4,10 +4,12 @@ module.exports = {
     desc: "negative zero package manager (HEAVY WIP)",
     version: "beta 0.0.5",
     usage: "NZPM [refresh/install/help]",
-    run: async (args, bruh, user, programs, line) =>{
+    run: async (args, bruh, usere, programs, line) =>{
 
         const NZTK = require("../other/NZTK")
         const NZPMTools = require('../other/NZPMTools')
+
+        const user = usere.name
 
         // check if the user has inputed any arguments
         

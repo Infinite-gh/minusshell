@@ -848,3 +848,13 @@ PS1:[26-01-2022 12:1:26]
 ->> 
 at 26-01-2022 12:1:26 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
  
+
+
+
+started a session. 
+user: default
+PS1:[26-01-2022 19:43:59]
+[undefined @ frepron]
+->> 
+at 26-01-2022 19:43:59 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 

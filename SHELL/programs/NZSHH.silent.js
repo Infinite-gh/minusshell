@@ -15,7 +15,7 @@ module.exports = {
 
         rl.setPrompt(NZTK.setupps1(config.PS1, user.name));
 
-        NZTK.log(`started a session. \nuser: ${user.name}\nPS1:${config.PS1}`, 'sessionmanager', 'sessions')
+        NZTK.log(`started a session. \nuser: ${user.name}\nPS1:${NZTK.setupps1(config.PS1, user.name)}`, 'sessionmanager', 'sessions')
         
         // a little "hello"
 
@@ -61,7 +61,7 @@ module.exports = {
 
                 if(apps.has(args[0])){
 
-                    apps.get(`${args[0]}`).run(args, line, user, apps, rl, programs)
+                    apps.get(`${args[0]}`).run(args, line, user, apps, rl, programs, users)
                 }else{
 
                     NZTK.log(`called out unexistent command ${args[0]}`, `NZSHH`, `cmdhandler`)

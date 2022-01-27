@@ -56,6 +56,7 @@ module.exports = {
                             
                             var pswd = users.get(answer1).password
                             if(pswd === answer2){
+                                
                                 programs.get(globalConfig.shell.name).run(users, users.get(answer1), rl, programs)
                             }else{
 

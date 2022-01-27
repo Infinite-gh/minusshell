@@ -1,1 +1,2 @@
 history > https://github.com/Infinite-gh/ISH-history
+plugbot > https://github.com/NRDsstuff/plugbot-minus

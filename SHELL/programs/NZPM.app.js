@@ -34,12 +34,12 @@ module.exports = {
 
                 case "install":
 
-                    NZPMTools.install(args, line, user)
+                    NZPMTools.install(`${args[2]}`, line, user)
                 break;
                     
                 case "i":
 
-                    NZPMTools.install(args, line, user)
+                    NZPMTools.install(`${args[2]}`, line, user)
                 break;
 
                 case "help":
@@ -54,12 +54,12 @@ module.exports = {
 
                 case "update":
 
-                    NZPMTools.update()
+                    NZPMTools.update(line, user)
                 break;
 
                 case "u":
 
-                    NZPMTools.update()
+                    NZPMTools.update(line, user)
                 break;
                 
                 default:

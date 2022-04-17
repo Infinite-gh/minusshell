@@ -814,3 +814,273 @@ at 27-01-2022 12:1:46 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
 entered NZPM i plugbot into the cmd. 
 at 27-01-2022 12:2:42 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
  
+
+
+
+entered plugbot into the cmd. 
+at 03-03-2022 16:20:47 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered plugbot into the cmd. 
+at 03-03-2022 16:21:47 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered plugbot into the cmd. 
+at 03-03-2022 16:22:45 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered plugbot into the cmd. 
+at 03-03-2022 16:29:32 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i history into the cmd. 
+at 03-03-2022 16:29:38 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered history into the cmd. 
+at 03-03-2022 16:29:43 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered history into the cmd. 
+at 03-03-2022 16:29:51 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered plugbot into the cmd. 
+at 03-03-2022 16:30:28 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i history into the cmd. 
+at 03-03-2022 16:30:32 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered history into the cmd. 
+at 03-03-2022 16:30:37 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i plugbot into the cmd. 
+at 03-03-2022 16:34:13 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM u into the cmd. 
+at 03-03-2022 16:35:19 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered clear into the cmd. 
+at 03-03-2022 16:35:43 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM update into the cmd. 
+at 03-03-2022 16:36:53 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered help into the cmd. 
+at 03-03-2022 16:37:5 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered help into the cmd. 
+at 03-03-2022 16:37:14 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM u into the cmd. 
+at 03-03-2022 16:38:56 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i history into the cmd. 
+at 03-03-2022 16:41:16 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i history into the cmd. 
+at 03-03-2022 16:42:5 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i history into the cmd. 
+at 03-03-2022 16:42:50 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM u into the cmd. 
+at 03-03-2022 16:43:0 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i history into the cmd. 
+at 03-03-2022 16:53:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i history into the cmd. 
+at 03-03-2022 16:53:49 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i history into the cmd. 
+at 03-03-2022 16:54:36 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i plugbot into the cmd. 
+at 03-03-2022 16:55:31 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i plugbot into the cmd. 
+at 03-03-2022 16:58:31 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM u into the cmd. 
+at 03-03-2022 17:4:5 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM update into the cmd. 
+at 03-03-2022 17:5:1 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM update into the cmd. 
+at 03-03-2022 17:5:45 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM u into the cmd. 
+at 03-03-2022 17:5:55 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i plugbot into the cmd. 
+at 03-03-2022 17:6:1 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM i history into the cmd. 
+at 03-03-2022 17:7:32 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM u into the cmd. 
+at 03-03-2022 17:7:36 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered  clear into the cmd. 
+at 03-03-2022 17:7:42 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered clear into the cmd. 
+at 03-03-2022 17:7:45 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered clear into the cmd. 
+at 03-03-2022 17:7:47 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered  into the cmd. 
+at 03-03-2022 17:7:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered  into the cmd. 
+at 03-03-2022 17:7:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered  into the cmd. 
+at 03-03-2022 17:7:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered  into the cmd. 
+at 03-03-2022 17:7:48 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered clear into the cmd. 
+at 17-04-2022 12:25:47 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM u into the cmd. 
+at 17-04-2022 12:25:51 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM u into the cmd. 
+at 17-04-2022 12:26:39 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM u into the cmd. 
+at 17-04-2022 12:27:11 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+entered NZPM u into the cmd. 
+at 17-04-2022 12:29:9 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 

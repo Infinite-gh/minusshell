@@ -22,3 +22,45 @@ at 19-01-2022 8:30:36 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
 called out unexistent command NPZM 
 at 27-01-2022 10:44:53 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
  
+
+
+
+called out unexistent command plugbot 
+at 03-03-2022 16:20:47 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+called out unexistent command plugbot 
+at 03-03-2022 16:21:47 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+called out unexistent command plugbot 
+at 03-03-2022 16:22:45 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+called out unexistent command plugbot 
+at 03-03-2022 16:29:32 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+called out unexistent command history 
+at 03-03-2022 16:29:43 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+called out unexistent command history 
+at 03-03-2022 16:29:51 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 
+
+
+
+called out unexistent command plugbot 
+at 03-03-2022 16:30:28 using Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+ 

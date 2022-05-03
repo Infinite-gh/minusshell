@@ -1,6 +1,6 @@
 // this code is OBVIOUSLY stolen (:
 
-module.exports = function countFileLines(file){
+module.exports = (file) =>{
 
     const fs = require('fs')
 
@@ -9,7 +9,7 @@ module.exports = function countFileLines(file){
         let lineCount = 0;
         
         fs.createReadStream(file)
-        .on("data", (buffer) => {
+        .on("data", (buffer) =>{
 
             let idx = -1;
 

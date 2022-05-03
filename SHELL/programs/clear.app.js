@@ -3,11 +3,13 @@ module.exports = {
     desc: "clear the terminal screen",
     version: "beta 0.0.1",
     usage: "clear",
-    run: function exit(){
+    run: (args, line, user, apps, rl, programs, users) =>{
 
-        const NZTK = require('../other/NZTK')
+        // does the stuff
+
+        const NZTKc = require('../other/NZTK')
+        const NZTK = new NZTKc("clear", user)
 
         console.clear()
-        NZTK.silentlog("cleared the screen", "clear", "history")
     }
 }

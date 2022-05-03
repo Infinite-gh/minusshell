@@ -3,14 +3,19 @@ module.exports = {
     desc: "pretty much a useless command",
     version: "beta 0.0.1",
     usage: "echo [something]",
-    run: (args) =>{
+    run: (args, line, user, apps, rl, programs, users) =>{
+
+        // another cool gadget i guess
+
+        const NZTKc = require('../other/NZTK')
+        const NZTK = new NZTKc("echo", user)
 
         if(!args[1]){
 
-            console.log(`please input what am i supposed to echo`)
+            NZTK.log.error("please input what i'm supposed to echo", "echo", 2, "echo", user.name)
         }else{
             
-            console.log(args[1])
+            NZTK.log.normal(args[1], 2, "echo")
         }
     }
 }

@@ -3,11 +3,14 @@ module.exports = {
     desc: "shut down the shell",
     version: "beta 0.0.2",
     usage: "exit",
-    run: () =>{
+    run: (args, line, user, apps, rl, programs, users) =>{
         
-        const NZTK = require('../other/NZTK')
+        // one of the most fundamental cmds
+        
+        const NZTKc = require('../other/NZTK')
+        const NZTK = new NZTKc("exit", user)
 
-        NZTK.log(`ended a session.`, 'sessionmanager', 'sessions')
+        NZTK.log.normal(`ended a session.`, 2, "nope")
         process.exit()
     }
 }

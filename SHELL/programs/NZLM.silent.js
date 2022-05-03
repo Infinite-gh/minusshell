@@ -19,7 +19,9 @@ module.exports = {
 
         const globalConfig = require('../configs/globalConf.json')
 
-        const NZTK = require("../other/NZTK")
+        const NZTKc = require("../other/NZTK")
+        const notuser = {name: "no"}
+        const NZTK = new NZTKc("NZLM", notuser)
 
         // get users
     
@@ -29,7 +31,7 @@ module.exports = {
         for(const file of usrs){
             const cmd = require(`../configs/users/${file}`);
             
-            NZTK.log(`found user ${cmd.name}`, `boot`, `loadprograms`)
+            NZTK.log.normal(`found user ${cmd.name}`, 1, `loadprograms`)
 
             users.set(cmd.name, cmd)
         }
@@ -43,7 +45,7 @@ module.exports = {
         
                     if(!users.get(answer1)){
         
-                        console.log(`can't find a user named ${answer1}`)
+                        NZTK.log.error(`can't find a user named ${answer1}`, 2, "yes")
                         login()
                         
                     }else{
@@ -60,9 +62,8 @@ module.exports = {
                                 programs.get(globalConfig.shell.name).run(users, users.get(answer1), rl, programs)
                             }else{
 
-                                console.log(`incorrect password`)
+                                NZTK.log.error(`incorrect password`, 2, "yes")
                                 login()
-                                    
                             }
                         });
                     }

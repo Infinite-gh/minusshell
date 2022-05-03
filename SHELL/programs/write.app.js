@@ -3,15 +3,18 @@ module.exports = {
     desc: "log something into the logs if you for some reason want to do it",
     version: "beta 0.0.1",
     usage: "write [filename] [something]",
-    run: (args, line, user, programs, rl) =>{
+    run: (args, line, user, apps, rl, programs, users) =>{
 
-        const NZTK = require("../other/NZTK")
+        // useless but cool gadget
+
+        const NZTKc = require("../other/NZTK")
+        const NZTK = new NZTKc("write", user)
 
         rl.question(`what do you want to name the file? \n`, (line1) =>{
 
             rl.question(`what do you want to write? \n`, (line2) =>{
 
-                NZTK.log(line2, `write`, line1)
+                NZTK.log.normal(line2, 1, line1)
             })
         })
     }

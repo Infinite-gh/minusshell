@@ -1,31 +1,36 @@
 module.exports = {
     name: "NZSHH",
     desc: "negative zero shell or something idk",
-    version: "beta 0.0.1",
+    version: "beta 0.0.2",
     usage: "NZSHH",
     run: (users, user, rl, programs) =>{
 
+        // the heart of -SH. i wonder if anyone would want to make a better shell
+
         const fs = require('fs')
-        const NZTK = require('../other/NZTK')
+        const NZTKc = require('../other/NZTK')
+        const NZTK = new NZTKc("NZSHH", user)
 
         // load config
 
         const globalConfig = require('../configs/globalConf.json')
         const config = require('../configs/NZSHHConf.json')
 
-        rl.setPrompt(NZTK.setupps1(config.PS1, user.name));
+        NZTK.setupps1(`${config.PS1}`, (data) =>{rl.setPrompt(data)})
 
-        NZTK.log(`started a session. \nuser: ${user.name}\nPS1:${NZTK.setupps1(config.PS1, user.name)}`, 'sessionmanager', 'sessions')
+
+        NZTK.log.success(`started a session. \nuser: ${user.name}`, 1, "sessions")
+
         
         // a little "hello"
 
-        console.log(`\nHEY YOU! yes, you! \ntype help for a list of commands\n`)
+        NZTK.log.warn('type help for a list of commands', 2, "yes")
 
         rl.prompt();
 
         // actual cmdline
         
-        rl.on("line", async function(line){
+        rl.on("line", async (line) =>{
 
             // load programs
 
@@ -40,11 +45,11 @@ module.exports = {
 
             // set up the ps1 again
 
-            rl.setPrompt(NZTK.setupps1(config.PS1, user.name, users))
+            NZTK.setupps1(config.PS1, (data) =>{rl.setPrompt(data)})
 
             // history logging
 
-            NZTK.silentlog(`entered ${line} into the cmd.`, 'NZSHH', 'history')
+            NZTK.log.normal(`entered ${line} into the cmdline`, 0, 'cmdhandler')
 
             // normal command handler stuff
 
@@ -56,7 +61,7 @@ module.exports = {
 
             if(!args[0]){
 
-                console.log(`please input something into the command line. \n`)
+                NZTK.log.warn("please input something into the cmdline", 2, "echo")
             }else{
 
                 if(apps.has(args[0])){
@@ -64,7 +69,7 @@ module.exports = {
                     apps.get(`${args[0]}`).run(args, line, user, apps, rl, programs, users)
                 }else{
 
-                    NZTK.log(`called out unexistent command ${args[0]}`, `NZSHH`, `cmdhandler`)
+                    NZTK.log.error(`called out unexistent command ${args[0]}.`, 1, "yes")
                 }
             }
       
@@ -76,7 +81,7 @@ module.exports = {
 
             // a little thing
 
-            console.log("disabled the readline.")
+            NZTK.log.warn('disabled the CMDLINE', 2, "no")
         })
     }
 }

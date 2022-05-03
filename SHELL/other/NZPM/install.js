@@ -4,22 +4,16 @@ module.exports = (package, rl, user) =>{
 
     const shell = require('shelljs')
     const fs = require('fs')
-    const NZTK = require('../NZTK')
+    const NZTKc = require('../NZTK')
+    const NZTK = new NZTKc("NZPM", user)
 
-    const theRepo = NZTK.findinjson(repo, package)
+    NZTK.findInJson(repo, package, (theRepo) =>{
 
-    switch(theRepo){
-
-        case "404":
-            
-            NZTK.log(`can't find ${package} in the repository.`, 'NZPM', 'install')
-        break;
-
-        default:
-
-            shell.exec(`git clone ${theRepo} ./SHELL/temp/NZPM/${package}`)
-            const installer = require(`../../temp/NZPM/${package}/install.js`)
-            installer(rl, user)
-        break;
-    }  
+        if(theRepo === "ERROR//404") return
+        
+        shell.exec(`git clone ${theRepo} ./SHELL/temp/NZPM/${package}`)
+        const installer = require(`../../temp/NZPM/${package}/install.js`)
+        NZTK.log.normal(`starting installer for ${package}`)
+        installer(rl, user.name)
+    })
 }

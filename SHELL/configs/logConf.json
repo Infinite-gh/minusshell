@@ -1,6 +1,4 @@
 {
 
-    "start": "\n",
-    "footer": "at 'FD' using 'CPUM'",
-    "end": " "
+    "body": "['FD']\n=>['LT'] 'APP' --> 'LOG'"
 }

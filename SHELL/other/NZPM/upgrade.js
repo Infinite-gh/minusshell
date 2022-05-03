@@ -1,5 +1,5 @@
 
-module.exports = async (rl, user) =>{
+module.exports = (rl, user) =>{
     
     const install = require('./install')
 
@@ -9,8 +9,6 @@ module.exports = async (rl, user) =>{
     console.log(amount)
 
     for(let i = amount; i--; i = 0){
-
-        console.log(`doin your mom (pkg ${i}/${amount})`)
 
         var package = toUpdate.packages[i]
 

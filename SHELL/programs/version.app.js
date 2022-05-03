@@ -1,25 +1,28 @@
 module.exports = {
     name: "ver",
     desc: "get the version of a program",
-    version: "beta 0.0.1",
+    version: "beta 0.0.2",
     usage: "ver [program]",
-    run: (args, line, user, programs) =>{
+    run: (args, line, user, apps, rl, programs, users) =>{
 
-        const NZTK = require("../other/NZTK")
+        // there might possibly be a use for this
+
+        const NZTKc = require("../other/NZTK")
+        const NZTK = new NZTKc("version", user)
 
         const ver = programs.get(args[1])
 
         if(!ver){
 
-            console.log(`can't find a program named ${args[1]}`)
+            NZTK.log.error(`could not find a program named ${args[1]}`, 2, "nope")
         }else{
 
             if(!ver.version){
 
-                console.log(`can't find the version of ${args[1]}`)
+                NZTK.log.error(`${args[1]} has an incorrect application format and it's version can't be found`, 2, "nope")
             }else{
 
-                NZTK.log(`\n\nversion of ${args[1]}\n${ver.version}\n\n`, `version`, `version`)
+                NZTK.log.normal(`\n\nversion of ${args[1]}\n${ver.version}\n\n`, 2, "nope")
             }
         }
     }

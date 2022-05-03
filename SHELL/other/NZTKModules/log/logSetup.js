@@ -1,5 +1,7 @@
-module.exports = (tosetup, username, callback) =>{
+module.exports = (toLog, username, logType, app, bluePrint) =>{
 
+    const blueprint = `${bluePrint}`
+    
     const os = require('os')
 
     var totalmem = os.totalmem()
@@ -47,7 +49,7 @@ module.exports = (tosetup, username, callback) =>{
 
     let seconds = date_ob.getSeconds();
     
-    const finishedproduct = tosetup
+    const finishedproduct = blueprint
     .replace(/'FD'/g, `${date + "-" + month + "-" + year + " " + hours + ":" + minutes + ":" + seconds}`)
     .replace(/'DY'/g, year)
     .replace(/'DD'/g, date)
@@ -66,6 +68,9 @@ module.exports = (tosetup, username, callback) =>{
     .replace(/'CPUCLOCK'/g, cpuclock)
     .replace(/'U'/g, username)
     .replace(/'HN'/g, hostname)
+    .replace(/'LT'/g, logType)
+    .replace(/'APP'/g, app)
+    .replace(/'LOG'/g, toLog)
 
-    callback(finishedproduct)
+    return finishedproduct 
 }

@@ -1,7 +1,8 @@
-module.exports = (file, destination, customErrorOutput, CEOEnabled) => {
+module.exports = (file, destination, customErrorOutput, CEOEnabled, app, user) => {
 
     const fs = require('fs')
-    const NZTK = require('../NZTK')
+    const NZTKc = require('../NZTK')
+    const NZTK = new NZTKc(app, user)
 
     fs.rename(file, destination, (err) =>{
 
@@ -9,10 +10,10 @@ module.exports = (file, destination, customErrorOutput, CEOEnabled) => {
 
             if(CEOEnabled){
 
-                NZTK.log(customErrorOutput, "NZTK", "move")
+                NZTK.log.error(customErrorOutput, 1, "move")
             }else{
 
-                NZTK.log(err, "NZTK", "move")
+                NZTK.log.error(err, 1, "move")
             }
         }
     })

@@ -1,7 +1,8 @@
-module.exports = (file, customErrorOutput, CEOEnabled) =>{
+module.exports = (file, customErrorOutput, CEOEnabled, app, user) =>{
 
     const fs = require('fs')
-    const NZTK = require('../NZTK')
+    const NZTKc = require('../NZTK')
+    const NZTK = new NZTKc(app, user)
 
     fs.unlink(file, (err) =>{
 
@@ -9,11 +10,14 @@ module.exports = (file, customErrorOutput, CEOEnabled) =>{
 
             if(CEOEnabled){
 
-                NZTK.log(customErrorOutput, "NZTK", "remove")
+                NZTK.log.error(customErrorOutput, 1, "remove")
             }else{
 
-                NZTK.log(err, "NZTK", "remove")
+                NZTK.log.error(err, 1, "remove")
             }
+        }else{
+
+            NZTK.log.success(`successfully deleted ${file}`, 1, "remove")
         }
     })
 }

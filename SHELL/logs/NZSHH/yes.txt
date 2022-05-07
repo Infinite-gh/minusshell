@@ -1,0 +1,11 @@
+[31m[06-05-2022 16:49:3]
+=>[✕] NZSHH --> called out unexistent command a.[39m[31m[06-05-2022 16:49:19]
+=>[✕] NZSHH --> called out unexistent command read.[39m[31m[06-05-2022 16:51:9]
+=>[✕] NZSHH --> called out unexistent command plugbot.[39m[31m[06-05-2022 17:23:37]
+=>[✕] NZSHH --> called out unexistent command plugbot.[39m[31m[06-05-2022 17:23:38]
+=>[✕] NZSHH --> called out unexistent command cd.[39m[31m[07-05-2022 18:6:27]
+=>[✕] NZSHH --> called out unexistent command among.[39m[31m[07-05-2022 18:6:29]
+=>[✕] NZSHH --> called out unexistent command amog.[39m[31m[07-05-2022 18:6:31]
+=>[✕] NZSHH --> called out unexistent command plugbot.[39m[31m[07-05-2022 18:6:33]
+=>[✕] NZSHH --> called out unexistent command a.[39m[31m[07-05-2022 18:7:0]
+=>[✕] NZSHH --> called out unexistent command var.[39m

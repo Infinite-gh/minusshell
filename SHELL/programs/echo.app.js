@@ -1,7 +1,7 @@
 module.exports = {
     name: "echo",
     desc: "pretty much a useless command",
-    version: "beta 0.0.1",
+    version: "beta 0.0.2",
     usage: "echo [something]",
     run: (args, line, user, apps, rl, programs, users) =>{
 
@@ -11,11 +11,23 @@ module.exports = {
         const NZTK = new NZTKc("echo", user)
 
         if(!args[1]){
+            
+            return {
 
-            NZTK.log.error("please input what i'm supposed to echo", "echo", 2, "echo", user.name)
+                name: "echo",
+                exitCode: 1,
+                value: "please input what i'm supposed to echo"
+            }
         }else{
             
             NZTK.log.normal(args[1], 2, "echo")
+
+            return {
+
+                name: "echo",
+                exitCode: 0,
+                value: args[1]
+            }
         }
     }
 }

@@ -3,11 +3,17 @@ module.exports = {
     desc: "negative zero shell or something idk",
     version: "beta 0.0.2",
     usage: "NZSHH",
-    run: (users, user, rl, programs) =>{
+    run: (users, user) =>{
 
         // the heart of -SH. i wonder if anyone would want to make a better shell
 
         const fs = require('fs')
+        const readline = require('readline')
+        const rl = readline.createInterface({
+
+            input: process.stdin,
+            output: process.stdout
+        })
         const NZTKc = require('../other/NZTK')
         const NZTK = new NZTKc("NZSHH", user)
 
@@ -27,6 +33,15 @@ module.exports = {
         NZTK.log.warn('type help for a list of commands', 2, "yes")
 
         rl.prompt();
+
+        // memory
+
+        let mem = new Map()
+
+        setInterval(() =>{
+
+            NZTK.setupps1(config.PS1, (data) =>{rl.setPrompt(data)})
+        }, 1000)
 
         // actual cmdline
         
@@ -66,7 +81,14 @@ module.exports = {
 
                 if(apps.has(args[0])){
 
-                    apps.get(`${args[0]}`).run(args, line, user, apps, rl, programs, users)
+                    const exit = apps.get(`${args[0]}`).run(args, line, user, apps, rl, apps, users, mem)
+                    
+                    mem.set(exit.name, exit.value)
+
+                    if(exit.exitCode > 0){
+
+                        NZTK.log.error(`program ${exit.name} crashed! reason: ${exit.value}`, 1, "crashes")
+                    }
                 }else{
 
                     NZTK.log.error(`called out unexistent command ${args[0]}.`, 1, "yes")

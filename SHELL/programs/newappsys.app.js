@@ -1,6 +1,6 @@
 module.exports = {
-    name: "",
-    desc: "",
+    name: "test",
+    desc: "test the new app system",
     version: "69",
     usage: "command [arg]",
     run: (args, rawUserInput, user, apps, readline, programs, users, mem) =>{
@@ -17,9 +17,8 @@ module.exports = {
 
         return exit = {
 
-            name: "",
-            exitCode: 0,
-            value: {}
+            name: "test",
+            value: "something saved to memory"
         }
     }
 }

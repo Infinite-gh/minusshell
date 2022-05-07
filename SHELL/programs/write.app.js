@@ -10,12 +10,32 @@ module.exports = {
         const NZTKc = require("../other/NZTK")
         const NZTK = new NZTKc("write", user)
 
-        rl.question(`what do you want to name the file? \n`, (line1) =>{
+        if(!args[1]){
 
-            rl.question(`what do you want to write? \n`, (line2) =>{
+            return {
 
-                NZTK.log.normal(line2, 1, line1)
-            })
-        })
+                name: "write",
+                exitCode: 1,
+                value: "please input where to write the file"
+            }
+        }
+        if(!args[2]){
+
+            return {
+
+                name: "write",
+                exitCode: 1,
+                value: "what to write"
+            }
+        }
+        
+        NZTK.log.normal(args[1], 1, args[2])
+
+        return {
+
+            name: "write",
+            exitCode: 0,
+            value: `${args[2]} in ${args[1]}`
+        }
     }
 }

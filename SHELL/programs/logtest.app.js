@@ -15,5 +15,12 @@ module.exports = {
         NZTK.log.warn("warn log", 2, "yes")
         NZTK.log.error("error log", 2, "yes")
         NZTK.log.critError("critical error log", 2, "yes")
+
+        return {
+
+            name: "logtest",
+            exitCode: 0,
+            value: "complete"
+        }
     }
 }

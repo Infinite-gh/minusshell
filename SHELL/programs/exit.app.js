@@ -1,7 +1,7 @@
 module.exports = {
     name: "exit",
     desc: "shut down the shell",
-    version: "beta 0.0.2",
+    version: "beta 0.0.3",
     usage: "exit",
     run: (args, line, user, apps, rl, programs, users) =>{
         

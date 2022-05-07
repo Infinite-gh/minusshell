@@ -17,7 +17,12 @@ module.exports = {
         
         if(!args[1]){
 
-            NZTK.log.warn(`please run install help or refresh`, 2, 'yes')
+            return {
+
+                name: "NZPM",
+                exitCode: 1,
+                value: "please use help list refresh or install"
+            }
         }else{
 
             // check what operation does the user want to do
@@ -51,7 +56,7 @@ module.exports = {
 
                 case "h":
 
-                    NZTK.log.normal(`commands\nNZPM refresh => refresh the repository\nNZPM install [package name] => install [package name]\nNZPM update => update all the installed packages`, 2, "yes")
+                    NZTK.log.normal(`commands\nNZPM list => list all available packages\nNZPM refresh => refresh the repository\nNZPM install [package name] => install [package name]\nNZPM update => update all the installed packages`, 2, "yes")
                 break;
 
                 case "update":
@@ -63,14 +68,33 @@ module.exports = {
 
                     NZPMTools.update(line)
                 break;
+
+                case "l":
+                    NZTK.log.normal(NZTK.readFile('./SHELL/configs/NZPM/packagelist.txt', 'a', false), 2, 'f')
+                break;
+
+                case "list":
+                    NZTK.log.normal(NZTK.readFile('./SHELL/configs/NZPM/packagelist.txt', 'a', false), 2, 'f')
+                break;
                 
                 default:
 
-                    NZTK.log.error(`can't find a function of NZPM ${args[1]}`, 2, `manager`)
-                break;
+                    return {
+
+                        name: "NZPM",
+                        exitCode: 1,
+                        value: `can't find the option ${args[1]}`
+                    }
             }
 
             await NZTK.log.normal(`(NZPM) used ${args[1]}`, 0, `manager`)
+
+            return {
+
+                name: "NZPM",
+                exitCode: 0,
+                value: `option ${args[1]}, pkg ${args[2]}`
+            }
         }
     }
 }

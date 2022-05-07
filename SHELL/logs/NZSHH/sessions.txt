@@ -1,0 +1,39 @@
+[32m[06-05-2022 8:8:14]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[06-05-2022 8:9:24]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[06-05-2022 8:9:58]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[06-05-2022 8:10:43]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[06-05-2022 16:49:2]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[06-05-2022 16:51:7]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[06-05-2022 16:52:53]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[06-05-2022 16:53:13]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[06-05-2022 16:53:21]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[06-05-2022 16:54:31]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[06-05-2022 16:55:59]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[06-05-2022 16:57:48]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[06-05-2022 16:58:55]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[06-05-2022 16:59:7]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[06-05-2022 17:1:42]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[06-05-2022 17:4:19]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[07-05-2022 18:4:54]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[07-05-2022 18:6:6]
+=>[✓] NZSHH --> started a session. 
+user: default[39m[32m[07-05-2022 18:10:9]
+=>[✓] NZSHH --> started a session. 
+user: default[39m

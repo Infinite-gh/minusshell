@@ -1,7 +1,7 @@
 module.exports = {
     name: "history",
     desc: "history of infinite shell",
-    version: "does it really matter 1.0.0?",
+    version: "1.1.0",
     usage: "history",
     run: (args, rawUserInput, user, apps, readline, programs) =>{
 
@@ -9,18 +9,25 @@ module.exports = {
         // also has basically no practical use in 2022
     
         const NZTKc = require('../other/NZTK')
-        const NZTK = new NZTKc(app, user)
+        const NZTK = new NZTKc("history", user)
         const fs = require('fs')
 
         fs.readFile('./SHELL/logs/NZSHH/cmdhandler.txt', 'utf8', (err, data) =>{
 
             if(err){
-                
-                NZTK.log.error(`an error occured while reading the history of minus shell`, 2, "nada")
+
+                NZTK.log.error(`could not load the history of minus shell`)
             }else{
 
                 console.log(data)
             }
         })
+
+        return {
+
+            name: "history",
+            exitCode: 0,
+            value: ""
+        }
     }
 }

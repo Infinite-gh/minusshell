@@ -1,7 +1,7 @@
 module.exports = {
     name: "NZPM",
     desc: "negative zero package manager (HEAVY WIP)",
-    version: "beta 0.0.7",
+    version: "beta 0.0.8",
     usage: "NZPM [refresh/install/help]",
     run: (NZSHHStuff, cb) =>{
 
@@ -44,6 +44,8 @@ module.exports = {
 
                     NZPMTools.refresh()
                 break;
+
+                // beeg cood
 
                 case "install":
 

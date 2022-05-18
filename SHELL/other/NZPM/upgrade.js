@@ -10,7 +10,7 @@ module.exports = (NZSHHStuff, cb) =>{
 
     NZTK.log.warn(`starting to update packages. ${amount} packages to update: ${toUpdate.packages}`, 1, "update")
 
-    const install = (pkg) =>{
+    const installate = (pkg) =>{
         
         var package = toUpdate.packages[pkg]
 
@@ -21,7 +21,7 @@ module.exports = (NZSHHStuff, cb) =>{
             NZTK.log.success(`updated ${package} (${pkg}/${amount})`)
             if(pkg <= amount){
 
-                install(pkg + 1)
+                installate(pkg + 1)
             }else{
 
                 cb()
@@ -29,5 +29,5 @@ module.exports = (NZSHHStuff, cb) =>{
         })
     }   
 
-    install(0)
+    installate(0)
 }

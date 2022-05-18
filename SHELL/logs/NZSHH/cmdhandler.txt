@@ -102,4 +102,6 @@
 =>[i] NZSHH --> entered NZPM i plugbot into the cmdline[18-05-2022 8:11:5]
 =>[i] NZSHH --> entered NZPM i plugbot into the cmdline[18-05-2022 8:15:2]
 =>[i] NZSHH --> entered NZPM i plugbot into the cmdline[18-05-2022 8:17:15]
+=>[i] NZSHH --> entered NZPM i plugbot into the cmdline[18-05-2022 8:44:38]
+=>[i] NZSHH --> entered NZPM i plugbot into the cmdline[18-05-2022 8:49:20]
 =>[i] NZSHH --> entered NZPM i plugbot into the cmdline

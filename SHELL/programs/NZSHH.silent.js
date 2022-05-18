@@ -9,7 +9,7 @@ module.exports = {
 
         const fs = require('fs')
         const readline = require('readline')
-        const rl = readline.createInterface({
+        let rl = readline.createInterface({
 
             input: process.stdin,
             output: process.stdout
@@ -134,6 +134,14 @@ module.exports = {
                             NZTK.log.critError(`program ${args[0]} crashed! reason: ${err}`, 1, "crashes")
                         }
                     }
+
+                    try{rl.close}catch(err){}
+
+                    rl = readline.createInterface({
+
+                        input: process.stdin,
+                        output: process.stdout
+                    })
                     
                     
                 }else{

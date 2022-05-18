@@ -1,4 +1,4 @@
-module.exports = (package, rl, user) =>{
+module.exports = (package, rl, user, cb) =>{
 
     // simple yet effective
 
@@ -20,9 +20,10 @@ module.exports = (package, rl, user) =>{
         installer(rl, user, (data) =>{
 
             NZTK.log.success(`finished installing ${data}`, 1, "install")
-            end = true
+
+            // callback hell
+            
+            cb()
         })
-        
-        if(end) return
     })
 }

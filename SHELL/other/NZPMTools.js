@@ -9,7 +9,7 @@ module.exports = class{
         this.user = user
     }
 
-    install(args, line){install(args, line, this.user)}
-    update(rl){update(rl, this.user)}
+    install(args, line, cb){install(args, line, this.user, cb)}
+    update(NZSHHStuff, cb){update(NZSHHStuff, cb)}
     refresh(){refresh(this.user)}
 }

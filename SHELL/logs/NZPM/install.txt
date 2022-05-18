@@ -1,0 +1,2 @@
+[32m[18-05-2022 8:17:57]
+=>[✓] NZPM --> finished installing plugbot[39m

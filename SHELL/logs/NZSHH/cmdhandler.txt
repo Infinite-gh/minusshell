@@ -101,4 +101,5 @@
 =>[i] NZSHH --> entered help into the cmdline[18-05-2022 8:8:54]
 =>[i] NZSHH --> entered NZPM i plugbot into the cmdline[18-05-2022 8:11:5]
 =>[i] NZSHH --> entered NZPM i plugbot into the cmdline[18-05-2022 8:15:2]
+=>[i] NZSHH --> entered NZPM i plugbot into the cmdline[18-05-2022 8:17:15]
 =>[i] NZSHH --> entered NZPM i plugbot into the cmdline

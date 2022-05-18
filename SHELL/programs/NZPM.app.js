@@ -47,12 +47,42 @@ module.exports = {
 
                 case "install":
 
-                    NZPMTools.install(`${args[2]}`, NZSHHStuff.appStuff.readline)
+                    if(!args[2]) cb({
+
+                        name: "NZPM",
+                        exitCode: 1,
+                        value: "no package to install was specified"
+                    })
+
+                    NZPMTools.install(`${args[2]}`, NZSHHStuff.appStuff.readline, () =>{
+
+                        cb({
+
+                            name: "NZPM",
+                            exitCode: 0,
+                            value: `finished installing ${args[2]}`
+                        })
+                    })
                 break;
                     
                 case "i":
 
-                    NZPMTools.install(`${args[2]}`, NZSHHStuff.appStuff.readline)
+                    if(!args[2]) cb({
+
+                        name: "NZPM",
+                        exitCode: 1,
+                        value: "no package to install was specified"
+                    })
+
+                    NZPMTools.install(`${args[2]}`, NZSHHStuff.appStuff.readline, () =>{
+
+                        cb({
+
+                            name: "NZPM",
+                            exitCode: 0,
+                            value: `finished installing ${args[2]}`
+                        })
+                    })
                 break;
 
                 // ugly ik
@@ -78,10 +108,12 @@ module.exports = {
                 break;
 
                 case "l":
+
                     NZTK.log.normal(NZTK.readFile('./SHELL/configs/NZPM/packagelist.txt', 'a', false), 2, 'f')
                 break;
 
                 case "list":
+                    
                     NZTK.log.normal(NZTK.readFile('./SHELL/configs/NZPM/packagelist.txt', 'a', false), 2, 'f')
                 break;
                 

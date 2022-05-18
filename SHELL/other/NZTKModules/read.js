@@ -1,4 +1,4 @@
-module.exports = (file, customErrOut, CEOEnabled, app, user) =>{
+module.exports = (file, customErrOut, CEOEnabled, app, user, cb) =>{
 
     const fs = require('fs')
     const NZTKc = require('../NZTK')
@@ -17,7 +17,7 @@ module.exports = (file, customErrOut, CEOEnabled, app, user) =>{
         }else{
 
             NZTK.log.success(`read ${data} from ${file}`, 0, "yeh")
-            return data
+            cb(data)
         }
     })
 }

@@ -1,22 +1,27 @@
 module.exports = {
     name: "clear",
     desc: "clear the terminal screen",
-    version: "beta 0.0.2",
+    version: "beta 0.0.3",
     usage: "clear",
-    run: (args, line, user, apps, rl, programs, users) =>{
+    run: (NZSHHStuff, cb) =>{
 
-        // does the stuff
+        const NZTKc = require("../other/NZTK")
+        const NZTK = new NZTKc("clear", NZSHHStuff.users.current)
 
-        const NZTKc = require('../other/NZTK')
-        const NZTK = new NZTKc("clear", user)
+        // any configs you might need
+
+        // ur code here lol
+        // also put everything here. it keeps the code tidy
 
         console.clear()
 
-        return {
+        // end end the program
+
+        cb({
 
             name: "clear",
             exitCode: 0,
             value: "complete"
-        }
+        })
     }
 }

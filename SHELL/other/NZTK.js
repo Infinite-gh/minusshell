@@ -29,7 +29,7 @@ module.exports = class NZTK{
     findInJson(json, value, callback){findinjson(json, value, callback, this.app, this.user)}
     removeDir(dir){removedir(dir, this.app, this.user)}
     countFileIndex(file){countfileindex(file)}
-    readFile(file, customErrorOutput, CEOEnabled){readFile(file, customErrorOutput, CEOEnabled, this.app, this.user)}
+    readFile(file, customErrorOutput, CEOEnabled, cb){readFile(file, customErrorOutput, CEOEnabled, this.app, this.user, cb)}
     removeFile(file, customErrorOutput, CEOEnabled){removeFile(file, customErrorOutput, CEOEnabled, this.app, this.user)}
     moveFile(file, destination, customErrorOutput, CEOEnabled){moveFile(file, destination, customErrorOutput, CEOEnabled, this.app, this.user)}
 }

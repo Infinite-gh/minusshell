@@ -8,4 +8,5 @@
 =>[✕] NZSHH --> called out unexistent command amog.[39m[31m[07-05-2022 18:6:31]
 =>[✕] NZSHH --> called out unexistent command plugbot.[39m[31m[07-05-2022 18:6:33]
 =>[✕] NZSHH --> called out unexistent command a.[39m[31m[07-05-2022 18:7:0]
-=>[✕] NZSHH --> called out unexistent command var.[39m
+=>[✕] NZSHH --> called out unexistent command var.[39m[31m[18-05-2022 6:55:41]
+=>[✕] NZSHH --> called out unexistent command ecoh.[39m

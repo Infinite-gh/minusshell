@@ -1,9 +1,10 @@
 module.exports = (package, rl, user) =>{
 
+    // simple yet effective
+
     let repo = require('../../configs/NZPM/packages.json') 
 
     const shell = require('shelljs')
-    const fs = require('fs')
     const NZTKc = require('../NZTK')
     const NZTK = new NZTKc("NZPM", user)
 

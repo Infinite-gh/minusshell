@@ -1,17 +1,23 @@
-
 module.exports = {
     name: "NZPM",
     desc: "negative zero package manager (HEAVY WIP)",
-    version: "beta 0.0.5",
+    version: "beta 0.0.6",
     usage: "NZPM [refresh/install/help]",
-    run: async (args, rawUserInput, user, apps, line, programs) =>{
-
-        // delicious spaghet
+    run: (NZSHHStuff, cb) =>{
 
         const NZTKc = require("../other/NZTK")
-        const NZTK = new NZTKc("NZPM", user)
+        const NZTK = new NZTKc("NZPM", NZSHHStuff.users.current)
         const NZPMToolsc = require('../other/NZPMTools')
-        const NZPMTools = new NZPMToolsc(user)
+        const NZPMTools = new NZPMToolsc(NZSHHStuff.users.current)
+
+        let args = NZSHHStuff.input.args
+
+        // any configs you might need
+
+        // ur code here lol
+        // also put everything here. it keeps the code tidy
+
+        // this looks awful
 
         // check if the user has inputed any arguments
         
@@ -41,13 +47,15 @@ module.exports = {
 
                 case "install":
 
-                    NZPMTools.install(`${args[2]}`, line)
+                    NZPMTools.install(`${args[2]}`, NZSHHStuff.input.line)
                 break;
                     
                 case "i":
 
-                    NZPMTools.install(`${args[2]}`, line)
+                    NZPMTools.install(`${args[2]}`, NZSHHStuff.input.line)
                 break;
+
+                // ugly ik
 
                 case "help":
 
@@ -61,12 +69,12 @@ module.exports = {
 
                 case "update":
 
-                    NZPMTools.update(line)
+                    NZPMTools.update(NZSHHStuff)
                 break;
 
                 case "u":
 
-                    NZPMTools.update(line)
+                    NZPMTools.update(NZSHHStuff)
                 break;
 
                 case "l":
@@ -79,22 +87,25 @@ module.exports = {
                 
                 default:
 
-                    return {
+                    cb({
 
                         name: "NZPM",
                         exitCode: 1,
                         value: `can't find the option ${args[1]}`
-                    }
-            }
-
-            await NZTK.log.normal(`(NZPM) used ${args[1]}`, 0, `manager`)
-
-            return {
-
-                name: "NZPM",
-                exitCode: 0,
-                value: `option ${args[1]}, pkg ${args[2]}`
+                    })
             }
         }
+
+        // end end the program
+
+        cb({
+
+            name: "app",
+            exitCode: 0,
+            value: {
+
+                something: "bruh"
+            }
+        })
     }
 }

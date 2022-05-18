@@ -1,33 +1,33 @@
 module.exports = {
     name: "history",
-    desc: "history of infinite shell",
-    version: "1.1.0",
+    desc: "load the history of -SH",
+    version: "1.1.1",
     usage: "history",
-    run: (args, rawUserInput, user, apps, readline, programs) =>{
+    run: (NZSHHStuff, cb) =>{
 
-        // mostly used as a test for NZPM, coming to the base -SH
-        // also has basically no practical use in 2022
-    
-        const NZTKc = require('../other/NZTK')
-        const NZTK = new NZTKc("history", user)
-        const fs = require('fs')
+        const NZTKc = require("../other/NZTK")
+        const NZTK = new NZTKc("history", NZSHHStuff.users.current)
 
-        fs.readFile('./SHELL/logs/NZSHH/cmdhandler.txt', 'utf8', (err, data) =>{
+        // any configs you might need
 
-            if(err){
+        // ur code here lol
+        // also put everything here. it keeps the code tidy
 
-                NZTK.log.error(`could not load the history of minus shell`)
-            }else{
+        NZTK.readFile('./SHELL/logs/NZSHH/cmdhandler.txt', false, '', (data) =>{
 
-                console.log(data)
-            }
+            NZTK.log.normal(data, 2, 'f')
         })
 
-        return {
+        // end end the program
+
+        cb({
 
             name: "history",
             exitCode: 0,
-            value: ""
-        }
+            value: {
+
+                something: "bruh"
+            }
+        })
     }
 }

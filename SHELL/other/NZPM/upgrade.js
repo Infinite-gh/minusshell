@@ -1,5 +1,5 @@
 
-module.exports = (rl, user) =>{
+module.exports = (NZSHHStuff) =>{
     
     const install = require('./install')
 
@@ -14,6 +14,6 @@ module.exports = (rl, user) =>{
 
         console.log(package)
 
-        install(package, rl, user)
+        install(package, NZSHHStuff.appStuff.rl, NZSHHStuff.users.current)
     }
 }

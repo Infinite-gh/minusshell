@@ -72,6 +72,26 @@ module.exports = {
 
             const command = apps.get(args[0])
 
+            let NZSHHStuff = {
+
+                input: {
+
+                    raw: line,
+                    args: args
+                },
+                users: {
+
+                    current: user,
+                    all: users
+                },
+                appStuff: {
+
+                    apps: apps,
+                    readline: rl,
+                    memory: mem
+                }
+            }
+
             // if i didn't put this here, the nodeos would crash on unexistent commands
 
             if(!args[0]){
@@ -81,21 +101,49 @@ module.exports = {
 
                 if(apps.has(args[0])){
 
-                    const exit = apps.get(`${args[0]}`).run(args, line, user, apps, rl, apps, users, mem)
-                    
-                    mem.set(exit.name, exit.value)
+                    // really pretty way of handling commands
+                    // also it has memory shtuff
 
-                    if(exit.exitCode > 0){
+                    let exit
 
-                        NZTK.log.error(`program ${exit.name} crashed! reason: ${exit.value}`, 1, "crashes")
+                    try{
+
+                        apps.get(`${args[0]}`).run(NZSHHStuff, (data) =>{
+
+                            exit = data
+
+                            // errors
+
+                            if(exit.exitCode > 0) return NZTK.log.error(`program ${exit.name} crashed! reason: ${exit.value}`, 1, "crashes")
+
+                            // memory
+
+                            mem.set(exit.name, exit.value)
+
+                            return
+                        })
+                    }catch(err){
+
+                        // unexpected errors are being catched here
+                        // i wish i didn't have to include this here 
+                        // at the time of writing this i'm like the only person who makes shtuff for -SH
+                        // which is sad
+
+                        if(err){
+
+                            NZTK.log.critError(`program ${args[0]} crashed! reason: ${err}`, 1, "crashes")
+                        }
                     }
+                    
+                    
                 }else{
 
                     NZTK.log.error(`called out unexistent command ${args[0]}.`, 1, "yes")
                 }
             }
       
-            // make it work 
+            // repeat
+            // i want to use something else but umm yeah
 
             await rl.prompt();
 

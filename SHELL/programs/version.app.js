@@ -1,40 +1,43 @@
 module.exports = {
     name: "ver",
-    desc: "get the version of a program",
-    version: "beta 0.0.2",
-    usage: "ver [program]",
-    run: (args, line, user, apps, rl, programs, users) =>{
-
-        // there might possibly be a use for this
+    desc: "check the version of an app",
+    version: "beta 0.0.3",
+    usage: "ver [app]",
+    run: (NZSHHStuff, cb) =>{
 
         const NZTKc = require("../other/NZTK")
-        const NZTK = new NZTKc("version", user)
+        const NZTK = new NZTKc("version", NZSHHStuff.users.current)
 
-        const ver = programs.get(args[1])
+        let args = NZSHHStuff.input.args
+
+        // any configs you might need
+
+        // ur code here lol
+        // also put everything here. it keeps the code tidy
+
+        const ver = NZSHHStuff.appStuff.apps.get(`${args[1]}`)
 
         if(!ver){
 
-            return {
+            cb({
 
-                name: "version",
+                name: "ver",
                 exitCode: 1,
-                value: `could not find a program named ${args[1]}`
-            }
+                value: `can't find the program named ${args[1]}`
+            })
         }else{
 
             if(!ver.version){
 
-                NZTK.log.error(`${args[1]} has an incorrect application format and it's version can't be found`, 2, "nope")
+                cb({
 
-                return {
-
-                    name: "version",
-                    exitCode: 0,
-                    value: "complete"
-                }
+                    name: "ver",
+                    exitCode: 1,
+                    value: "this program doesn't have the version number. please contact the developer of the app."
+                })
             }else{
 
-                NZTK.log.normal(`\n\nversion of ${args[1]}\n${ver.version}\n\n`, 2, "nope")
+                NZTK.log.normal(`version of ${args[1]}: ${ver.version}\n`, 2, "nope")
 
                 return {
 
@@ -44,5 +47,17 @@ module.exports = {
                 }
             }
         }
+
+        // end end the program
+
+        cb({
+
+            name: "app",
+            exitCode: 0,
+            value: {
+
+                something: "bruh"
+            }
+        })
     }
 }

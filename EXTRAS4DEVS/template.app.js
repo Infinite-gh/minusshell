@@ -1,12 +1,16 @@
+const name = "name"
+const desc = "description of the app"
+const version = "0.0.0"
+const usage = "how to use the app"
 module.exports = {
-    name: "",
-    desc: "",
-    version: "69",
-    usage: "command [arg]",
-    run: (args, rawUserInput, user, apps, readline, programs, users, mem) =>{
+    name: name,
+    desc: desc,
+    version: version,
+    usage: usage,
+    run: (NZSHHStuff, cb) =>{
 
         const NZTKc = require("../other/NZTK")
-        const NZTK = new NZTKc("name", user)
+        const NZTK = new NZTKc(name, NZSHHStuff.users.current)
 
         // any configs you might need
 
@@ -15,11 +19,14 @@ module.exports = {
 
         // end end the program
 
-        return exit = {
+        cb({
 
-            name: "",
+            name: name,
             exitCode: 0,
-            value: {}
-        }
+            value: {
+
+                something: "bruh"
+            }
+        })
     }
 }

@@ -1,19 +1,27 @@
 module.exports = {
     name: "help",
     desc: "help menu",
-    version: "beta 0.0.2",
+    version: "beta 0.0.3",
     usage: "help",
-    run: function help(args, line, user, apps, rl, programs, users){
+    run: (NZSHHStuff, cb) =>{
 
-        // well it at least works
+        const NZTKc = require("../other/NZTK")
+        const NZTK = new NZTKc("help", NZSHHStuff.users.current)
 
-        console.log(programs)
+        // any configs you might need
 
-        return {
+        // ur code here lol
+        // also put everything here. it keeps the code tidy
+
+        console.log(NZSHHStuff.appStuff.apps)
+
+        // end end the program
+
+        cb({
 
             name: "help",
             exitCode: 0,
-            value: "complete"
-        }
+            value: NZSHHStuff.appStuff.apps
+        })
     }
 }

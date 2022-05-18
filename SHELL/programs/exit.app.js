@@ -1,16 +1,32 @@
 module.exports = {
     name: "exit",
     desc: "shut down the shell",
-    version: "beta 0.0.3",
+    version: "beta 0.0.4",
     usage: "exit",
-    run: (args, line, user, apps, rl, programs, users) =>{
-        
-        // one of the most fundamental cmds
-        
-        const NZTKc = require('../other/NZTK')
-        const NZTK = new NZTKc("exit", user)
+    run: (NZSHHStuff, cb) =>{
 
-        NZTK.log.normal(`ended a session.`, 2, "nope")
+        const NZTKc = require("../other/NZTK")
+        const NZTK = new NZTKc("exit", NZSHHStuff.users.current)
+
+        // any configs you might need
+
+        // ur code here lol
+        // also put everything here. it keeps the code tidy
+
+        NZTK.log.success(`ended a session.`, 2, "nope")
         process.exit()
+
+        // end end the program
+        // this is useless in this situation since this cmd closes the process lol
+
+        cb({
+
+            name: "exit",
+            exitCode: 0,
+            value: {
+
+                something: "bruh"
+            }
+        })
     }
 }

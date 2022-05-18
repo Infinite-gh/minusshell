@@ -1,7 +1,7 @@
 module.exports = {
     name: "NZPM",
     desc: "negative zero package manager (HEAVY WIP)",
-    version: "beta 0.0.6",
+    version: "beta 0.0.7",
     usage: "NZPM [refresh/install/help]",
     run: (NZSHHStuff, cb) =>{
 
@@ -47,12 +47,12 @@ module.exports = {
 
                 case "install":
 
-                    NZPMTools.install(`${args[2]}`, NZSHHStuff.input.line)
+                    NZPMTools.install(`${args[2]}`, NZSHHStuff.appStuff.rl)
                 break;
                     
                 case "i":
 
-                    NZPMTools.install(`${args[2]}`, NZSHHStuff.input.line)
+                    NZPMTools.install(`${args[2]}`, NZSHHStuff.appStuff.rl)
                 break;
 
                 // ugly ik

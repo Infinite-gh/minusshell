@@ -8,6 +8,8 @@ module.exports = (package, rl, user) =>{
     const NZTKc = require('../NZTK')
     const NZTK = new NZTKc("NZPM", user)
 
+    let end 
+
     NZTK.findInJson(repo, package, (theRepo) =>{
 
         if(theRepo === "ERROR//404") return
@@ -15,6 +17,12 @@ module.exports = (package, rl, user) =>{
         shell.exec(`git clone ${theRepo} ./SHELL/temp/NZPM/${package}`)
         const installer = require(`../../temp/NZPM/${package}/install.js`)
         NZTK.log.normal(`starting installer for ${package}`)
-        installer(rl, user.name)
+        installer(rl, user, (data) =>{
+
+            NZTK.log.success(`finished installing ${data}`, 1, "install")
+            end = true
+        })
+        
+        if(end) return
     })
 }

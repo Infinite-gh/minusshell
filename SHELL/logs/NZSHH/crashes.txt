@@ -34,4 +34,12 @@
 =>[✕] NZSHH --> program write crashed! reason: no file specified[39m[31m[18-05-2022 7:34:9]
 =>[✕] NZSHH --> program write crashed! reason: nothing to write[39m[31m[18-05-2022 7:34:11]
 =>[✕] NZSHH --> program write crashed! reason: nothing to write[39m[31m[18-05-2022 7:34:20]
-=>[✕] NZSHH --> program ver crashed! reason: can't find the program named undefined[39m
+=>[✕] NZSHH --> program ver crashed! reason: can't find the program named undefined[39m[5m[40m[31m[18-05-2022 8:8:55]
+=>[✕] NZSHH --> program NZPM crashed! reason: Error: Cannot find module '../../configs/NZPM/toupdate.json'
+Require stack:
+- /home/nrd/kouding/-shInstantNoodles/SHELL/temp/NZPM/plugbot/install.js
+- /home/nrd/kouding/-shInstantNoodles/SHELL/other/NZPM/install.js
+- /home/nrd/kouding/-shInstantNoodles/SHELL/other/NZPMTools.js
+- /home/nrd/kouding/-shInstantNoodles/SHELL/programs/NZPM.app.js
+- /home/nrd/kouding/-shInstantNoodles/SHELL/starter/start.js[39m[49m[25m[5m[40m[31m[18-05-2022 8:11:6]
+=>[✕] NZSHH --> program NZPM crashed! reason: TypeError: Cannot read properties of undefined (reading 'close')[39m[49m[25m

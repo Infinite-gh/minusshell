@@ -42,4 +42,5 @@ Require stack:
 - /home/nrd/kouding/-shInstantNoodles/SHELL/other/NZPMTools.js
 - /home/nrd/kouding/-shInstantNoodles/SHELL/programs/NZPM.app.js
 - /home/nrd/kouding/-shInstantNoodles/SHELL/starter/start.js[39m[49m[25m[5m[40m[31m[18-05-2022 8:11:6]
+=>[✕] NZSHH --> program NZPM crashed! reason: TypeError: Cannot read properties of undefined (reading 'close')[39m[49m[25m[5m[40m[31m[18-05-2022 8:15:3]
 =>[✕] NZSHH --> program NZPM crashed! reason: TypeError: Cannot read properties of undefined (reading 'close')[39m[49m[25m

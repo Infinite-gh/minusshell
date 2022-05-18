@@ -47,12 +47,12 @@ module.exports = {
 
                 case "install":
 
-                    NZPMTools.install(`${args[2]}`, NZSHHStuff.appStuff.rl)
+                    NZPMTools.install(`${args[2]}`, NZSHHStuff.appStuff.readline)
                 break;
                     
                 case "i":
 
-                    NZPMTools.install(`${args[2]}`, NZSHHStuff.appStuff.rl)
+                    NZPMTools.install(`${args[2]}`, NZSHHStuff.appStuff.readline)
                 break;
 
                 // ugly ik

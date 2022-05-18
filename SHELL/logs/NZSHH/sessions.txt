@@ -66,4 +66,6 @@ user: default[39m[32m[18-05-2022 8:8:51]
 =>[✓] NZSHH --> started a session. 
 user: default[39m[32m[18-05-2022 8:11:3]
 =>[✓] NZSHH --> started a session. 
+user: default[39m[32m[18-05-2022 8:14:57]
+=>[✓] NZSHH --> started a session. 
 user: default[39m

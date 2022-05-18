@@ -72,7 +72,7 @@ module.exports = {
 
             const command = apps.get(args[0])
 
-            let NZSHHStuff = {
+            let NZSHHStuff ={
 
                 input: {
 

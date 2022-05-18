@@ -99,12 +99,28 @@ module.exports = {
 
                 case "update":
 
-                    NZPMTools.update(NZSHHStuff)
+                    NZPMTools.update(NZSHHStuff, () =>{
+
+                        cb({
+
+                            name: "NZPM",
+                            exitCode: 0,
+                            value: "finished updating packages"
+                        })
+                    })
                 break;
 
                 case "u":
 
-                    NZPMTools.update(NZSHHStuff)
+                    NZPMTools.update(NZSHHStuff, () =>{
+
+                        cb({
+
+                            name: "NZPM",
+                            exitCode: 0,
+                            value: "finished updating packages"
+                        })
+                    })
                 break;
 
                 case "l":
@@ -113,7 +129,7 @@ module.exports = {
                 break;
 
                 case "list":
-                    
+
                     NZTK.log.normal(NZTK.readFile('./SHELL/configs/NZPM/packagelist.txt', 'a', false), 2, 'f')
                 break;
                 

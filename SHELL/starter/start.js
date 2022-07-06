@@ -1,6 +1,5 @@
 const globalConf = require(`../configs/globalConf.json`)
 const startConf = require(`./startconf.json`)
-const user = {name: "no"}
 
 const fs = require('fs')
 const NZTKc = require('../other/NZTK')
